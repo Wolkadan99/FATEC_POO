@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Classe
 {
@@ -17,7 +13,7 @@ namespace Classe
             conta1.saldo = 500;
             conta1.MostrarAtributos();
             //classe    objeto = alocação de memória     construtor
-            Conta       conta2 = new                     Conta();
+            Conta conta2 = new Conta();
             conta2.numero = 2;
             conta2.titular = "Bia";
             conta2.saldo = 300;

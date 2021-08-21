@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ArrayConta
 {
@@ -16,7 +12,7 @@ namespace ArrayConta
         //declaração de método
         public void Mostrar()
         {
-            Console.WriteLine("Número: " + numero+"\tTitular: "+titular+"\tSaldo: "+ saldo);
+            Console.WriteLine("Número: " + numero + "\tTitular: " + titular + "\tSaldo: " + saldo);
         }
     }
 }

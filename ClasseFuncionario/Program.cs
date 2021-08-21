@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClasseFuncionario
 {
@@ -27,7 +23,7 @@ namespace ClasseFuncionario
             Console.Write("Digite o salário do funcionário: ");
             funcionario2.salario = Convert.ToDouble(Console.ReadLine());
             double soma = funcionario1.salario + funcionario2.salario;
-            Console.WriteLine("\nTotal de salários: "+ soma+"\n");
+            Console.WriteLine("\nTotal de salários: " + soma + "\n");
             funcionario1.MostrarAtributos();
             funcionario2.MostrarAtributos();
 

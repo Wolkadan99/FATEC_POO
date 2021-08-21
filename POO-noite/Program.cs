@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POO_noite
 {
@@ -10,7 +6,7 @@ namespace POO_noite
     {
         static void Main(string[] args)
         {
-            
+
             Console.Write("Digite o ano de nascimento: "); // print
             int anoNascimento = Convert.ToInt32(Console.ReadLine());
             int idade = 2021 - anoNascimento;
@@ -26,7 +22,7 @@ namespace POO_noite
             else // uma linha de código não precisa de {}
                 Console.Write("O aluno é menor de idade");
             Console.Write("\nEXEMPLO COM SWITCH.......................");
-           char mes = 'w';
+            char mes = 'w';
             switch (mes) //utilizam variáveis interias ou char
             {
                 case 'J': //mes == 1
@@ -47,16 +43,16 @@ namespace POO_noite
                 Console.Write("Fevereiro");
             else
                 Console.Write("Mês inválido");
-            
-            
+
+
             Console.WriteLine("EXEMPLO DO FOR");
             //int cont;
-            for (int cont1 = 0; cont1 < 3; cont1 ++) //Python for cont in range(3):
+            for (int cont1 = 0; cont1 < 3; cont1++) //Python for cont in range(3):
                 Console.WriteLine("Valor do cont.....: " + cont1);
-          
+
             Console.WriteLine("EXEMPLO DO WHILE");
             int cont = 0;
-            while (cont < 3) 
+            while (cont < 3)
             {
                 Console.WriteLine("Valor do cont.....: " + cont);
                 //cont = cont + 1;
