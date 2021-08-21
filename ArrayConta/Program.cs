@@ -11,7 +11,7 @@ namespace ArrayConta
         static void Main(string[] args)
         {
             Conta[] vetorConta = new Conta[3];//declaração do vetor
-            for (int i = 0; i < vetorConta.Length; i++)
+            for(int i=0, i < vetorConta.Length; i++)
             {
                 vetorConta[i] = new Conta();
                 Console.Write("Informe o número da conta: ");
