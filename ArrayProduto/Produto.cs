@@ -27,6 +27,7 @@ namespace ArrayProduto
         public string descricao;
         public double custo;
         public double preco;
+        internal double aux;
         internal double percentual;
         
         //declaração de Métodos
@@ -42,7 +43,9 @@ namespace ArrayProduto
         }
         public void AumentoPreco()
         {
-            preco = custo * (percentual/100);
+            aux = custo;
+            aux += custo * (percentual/100);
+            preco = aux;
         }
     }
 }

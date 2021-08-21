@@ -25,7 +25,7 @@ namespace ArrayProduto
 
         static void Main(string[] args)
         {
-            Produto[] vetorProduto = new Produto[1];//declaração do vetor
+            Produto[] vetorProduto = new Produto[3];//declaração do vetor
             for (int i = 0; i < vetorProduto.Length; i++)
             {
                 vetorProduto[i] = new Produto();
@@ -33,27 +33,29 @@ namespace ArrayProduto
                 vetorProduto[i].codigo = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Informe o descricao da produto: ");
                 vetorProduto[i].descricao = Console.ReadLine();
-                Console.Write("Informe o preço em produto: ");
+                Console.Write("Informe o custo do produto: ");
                 vetorProduto[i].custo = Convert.ToDouble(Console.ReadLine());
             }
-            for (int i = 0; i < vetorProduto.Length; i++)
-            {
-                foreach (Produto produto in vetorProduto)
-                {
-                    produto.MostrarCusto();
-                    Console.WriteLine("Percentual de aumento: ");
-                    produto.percentual = Convert.ToDouble(Console.ReadLine());
-                    produto.AumentoPreco();
-                }
-            }
-            Console.WriteLine("Tabela de valores");
+
             foreach (Produto produto in vetorProduto)
             {
-                produto.MostrarPreco();
-                Console.WriteLine("\n Valores anteriores");
                 produto.MostrarCusto();
+                Console.WriteLine("Percentual de aumento: ");
+                produto.percentual = Convert.ToDouble(Console.ReadLine());
+                produto.AumentoPreco();
+            }
+
+            Console.WriteLine("Valores anteriores");
+            foreach (Produto produto in vetorProduto)
+            {
+                produto.MostrarCusto();
+            }
+            Console.WriteLine("Novos valores");
+            foreach (Produto produto in vetorProduto) { 
+                produto.MostrarPreco();
             }
             Console.ReadKey();
         }
+
     }
 }
