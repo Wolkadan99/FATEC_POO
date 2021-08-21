@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasseProduto", "ClasseProd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayConta", "ArrayConta\ArrayConta.csproj", "{700806C6-8C2D-4500-8D70-4F15939428ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayProduto", "ArrayProduto\ArrayProduto.csproj", "{2F190107-A49E-47EC-918B-F37CFBB4A309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{700806C6-8C2D-4500-8D70-4F15939428ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{700806C6-8C2D-4500-8D70-4F15939428ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{700806C6-8C2D-4500-8D70-4F15939428ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F190107-A49E-47EC-918B-F37CFBB4A309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F190107-A49E-47EC-918B-F37CFBB4A309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F190107-A49E-47EC-918B-F37CFBB4A309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F190107-A49E-47EC-918B-F37CFBB4A309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
