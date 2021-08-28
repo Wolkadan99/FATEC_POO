@@ -10,11 +10,13 @@ namespace EncapsulamentoFuncionario
     {
         static void Main(string[] args)
         {
+            //
             Funcionario funcionario1 = new Funcionario();
             funcionario1.Codigo = 1; //Quando atribui valor, o método set esta sendo acionado
             funcionario1.Nome = "Marco";
             funcionario1.Salario = 50;
-            Console.WriteLine($"Funcionario {funcionario1.Nome}");
+            Console.WriteLine($"Funcionario {funcionario1.Nome}"); //metodo get sendo acionado.
+            //
 
             Funcionario funcionario2 = new Funcionario();
 

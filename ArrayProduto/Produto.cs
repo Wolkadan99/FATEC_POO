@@ -33,13 +33,11 @@ namespace ArrayProduto
         //declaração de Métodos
         public void MostrarCusto()
         {
-            Console.WriteLine("Código: " + codigo + "\tNome: " + descricao +
-                "\tValor de custo: " + custo);
+            Console.WriteLine($"Código: {codigo}\tNome: {descricao}\tValor de custo: R$ {custo}");
         }
         public void MostrarPreco()
         {
-            Console.WriteLine("Código: " + codigo + "\tNome: " + descricao +
-                "\tValor de venda: " + preco);
+            Console.WriteLine($"Código {codigo}\tNome: {descricao}\tValor de venda: R$ {preco}");
         }
         public void AumentoPreco()
         {
